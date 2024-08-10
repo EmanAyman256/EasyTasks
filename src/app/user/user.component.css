@@ -1,0 +1,36 @@
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.5rem;
+    background-color: #37949c;
+    color: #053635;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    width: 100%;
+    min-width: 10rem;
+    text-align: left;
+  }
+  
+  button:hover,
+  button:active,
+  .active {
+    background-color: #0d4d55;
+    color: #94e7d9;
+  }
+  
+  img {
+    width: 2rem;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  span {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: normal;
+  }
